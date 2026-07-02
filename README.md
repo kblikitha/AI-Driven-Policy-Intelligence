@@ -33,6 +33,12 @@ cotiviti-intern-assessment/
 
 ---
 
+## Live Demo
+
+Try it now, no setup required: https://ai-driven-policy-intelligence-dnpk8az9uyvyxapp4pf3azk.streamlit.app/
+
+---
+
 ## Proof of Concept — Quick Start
 
 ### Option A: Offline Demo (no API key needed)
