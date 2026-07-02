@@ -90,8 +90,7 @@ Google Gemini API (Gemini 2.5 Flash, free tier):
 | Written Report (Word) | `report/Content_Management_Healthcare_Report.docx` | ✅ Complete |
 | POC Demo (Streamlit App) | `poc/app.py` | ✅ Complete |
 | PowerPoint Presentation | `presentation/Content_Management_Healthcare_Slides.pptx` | ✅ Complete |
-| Video Script | `VIDEO_SCRIPT.md` | ✅ Complete |
-| Video Recording (MP4) | *(record using VIDEO_SCRIPT.md)* | Pending recording |
+| Video Script | Video Recording (MP4) | ✅ Complete |
 
 ---
 
