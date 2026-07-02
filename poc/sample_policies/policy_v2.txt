@@ -1,0 +1,69 @@
+BILLING POLICY: EVALUATION AND MANAGEMENT (E/M) SERVICES
+Version: 2.0  |  Effective Date: January 1, 2024
+Issuing Organization: Example Health Plan
+
+---
+
+SECTION 1: SCOPE
+This policy governs reimbursement for Evaluation and Management (E/M) services billed
+under CPT codes 99202–99215 for outpatient office visits and telehealth visits.
+
+SECTION 2: COVERAGE CRITERIA
+2.1 Covered Services
+E/M services are covered when:
+  - The service is medically necessary.
+  - The provider is a participating in-network physician, mid-level practitioner, or
+    licensed telehealth provider.
+  - The visit is documented in the member's medical record.
+  - For telehealth: the visit uses a HIPAA-compliant, real-time audio-visual platform.
+
+2.2 Documentation Requirements
+  - Beginning January 1, 2024, documentation must be based on Medical Decision Making (MDM)
+    OR total time on the date of the encounter (face-to-face and non-face-to-face combined).
+  - The three key component method (history, exam, MDM) is no longer required.
+  - Physicians must document the total time spent on the day of the encounter when using
+    time-based billing.
+  - Copy-forward documentation from previous visits is prohibited without explicit attestation
+    of review and update.
+
+SECTION 3: CODING GUIDELINES
+3.1 New Patient Codes (unchanged)
+  - 99202: Straightforward MDM, 15–29 minutes
+  - 99203: Low MDM, 30–44 minutes
+  - 99204: Moderate MDM, 45–59 minutes
+  - 99205: High MDM, 60–74 minutes
+
+3.2 Established Patient Codes (unchanged)
+  - 99211: Minimal, may not require physician presence
+  - 99212: Straightforward MDM, 10–19 minutes
+  - 99213: Low MDM, 20–29 minutes
+  - 99214: Moderate MDM, 30–39 minutes
+  - 99215: High MDM, 40–54 minutes
+
+3.3 Telehealth Codes (NEW)
+  - Telehealth E/M visits are billed with place of service (POS) code 02 (telehealth,
+    patient not in their home) or POS 10 (telehealth, patient in their home).
+  - Modifier 95 must be appended to all telehealth E/M codes.
+  - Audio-only visits may be billed with modifier 93 when video is not technically feasible,
+    subject to prior authorization.
+
+SECTION 4: BILLING RESTRICTIONS
+  - Same-day billing of E/M with procedure codes requires a separate, distinct service.
+  - Modifier 25 must be appended to the E/M code when billed same-day as a procedure.
+  - Split/shared visits between physician and APP must follow 2024 CMS guidelines; the
+    substantive portion rule applies (the billing provider must perform >50% of total time).
+  - Incident-to billing is not covered for new patients.
+  - Copy-forward documentation without attestation will result in claim denial.
+
+SECTION 5: REIMBURSEMENT
+  - Reimbursement is based on the Medicare Physician Fee Schedule (MPFS) at 115% of Medicare
+    allowable rates for participating providers (increased from 110%).
+  - Non-participating providers are reimbursed at 80% of MPFS (unchanged).
+  - Telehealth visits are reimbursed at parity with in-person visits through December 31, 2024.
+
+SECTION 6: EXCLUDED SERVICES
+  - Telephone-only consultations without a documented in-office OR telehealth component.
+  - Services rendered by unlicensed personnel.
+  - Administrative encounters not involving clinical evaluation.
+  - Telehealth visits conducted via non-HIPAA-compliant platforms (e.g., standard FaceTime,
+    standard Zoom without BAA).

@@ -1,0 +1,122 @@
+{
+  "policy_name": "Evaluation and Management (E/M) Services",
+  "effective_date": "January 1, 2024",
+  "cpt_codes": [
+    {
+      "code": "99202",
+      "description": "New patient office visit",
+      "patient_type": "new",
+      "mdm_level": "Straightforward",
+      "time_range_minutes": "15\u201329"
+    },
+    {
+      "code": "99203",
+      "description": "New patient office visit",
+      "patient_type": "new",
+      "mdm_level": "Low",
+      "time_range_minutes": "30\u201344"
+    },
+    {
+      "code": "99204",
+      "description": "New patient office visit",
+      "patient_type": "new",
+      "mdm_level": "Moderate",
+      "time_range_minutes": "45\u201359"
+    },
+    {
+      "code": "99205",
+      "description": "New patient office visit",
+      "patient_type": "new",
+      "mdm_level": "High",
+      "time_range_minutes": "60\u201374"
+    },
+    {
+      "code": "99211",
+      "description": "Established patient office visit",
+      "patient_type": "established",
+      "mdm_level": "Minimal",
+      "time_range_minutes": "N/A"
+    },
+    {
+      "code": "99212",
+      "description": "Established patient office visit",
+      "patient_type": "established",
+      "mdm_level": "Straightforward",
+      "time_range_minutes": "10\u201319"
+    },
+    {
+      "code": "99213",
+      "description": "Established patient office visit",
+      "patient_type": "established",
+      "mdm_level": "Low",
+      "time_range_minutes": "20\u201329"
+    },
+    {
+      "code": "99214",
+      "description": "Established patient office visit",
+      "patient_type": "established",
+      "mdm_level": "Moderate",
+      "time_range_minutes": "30\u201339"
+    },
+    {
+      "code": "99215",
+      "description": "Established patient office visit",
+      "patient_type": "established",
+      "mdm_level": "High",
+      "time_range_minutes": "40\u201354"
+    }
+  ],
+  "billing_rules": [
+    {
+      "rule": "Telehealth POS Requirement",
+      "detail": "Telehealth E/M visits must be billed with POS 02 (patient not in home) or POS 10 (patient in home).",
+      "denial_risk": true
+    },
+    {
+      "rule": "Modifier 95 for Telehealth",
+      "detail": "Modifier 95 must be appended to all telehealth E/M codes.",
+      "denial_risk": true
+    },
+    {
+      "rule": "Audio-Only Prior Authorization",
+      "detail": "Audio-only visits (Modifier 93) require prior authorization when video is not technically feasible.",
+      "denial_risk": true
+    },
+    {
+      "rule": "Modifier 25 \u2014 Same-Day E/M + Procedure",
+      "detail": "Modifier 25 must be appended to E/M code when billed same-day as a procedure.",
+      "denial_risk": true
+    },
+    {
+      "rule": "Copy-Forward Prohibition",
+      "detail": "Copy-forward documentation from previous visits is prohibited without explicit attestation of review and update.",
+      "denial_risk": true
+    },
+    {
+      "rule": "Split/Shared Visit \u2014 Substantive Portion",
+      "detail": "The billing provider must perform >50% of total encounter time for split/shared visit billing.",
+      "denial_risk": true
+    },
+    {
+      "rule": "Documentation Method",
+      "detail": "Documentation must be based on MDM OR total time on date of encounter (including non-face-to-face time). Three key components no longer required.",
+      "denial_risk": false
+    },
+    {
+      "rule": "Incident-To Exclusion",
+      "detail": "Incident-to billing is not covered for new patients.",
+      "denial_risk": true
+    }
+  ],
+  "reimbursement": {
+    "participating_rate": "115% of Medicare Physician Fee Schedule (MPFS)",
+    "non_participating_rate": "80% of MPFS",
+    "telehealth_parity": "In-person parity through December 31, 2024"
+  },
+  "excluded_services": [
+    "Telephone-only consultations without documented in-office or telehealth component",
+    "Services rendered by unlicensed personnel",
+    "Administrative encounters not involving clinical evaluation",
+    "Telehealth visits via non-HIPAA-compliant platforms (e.g., standard FaceTime, standard Zoom without BAA)"
+  ]
+}

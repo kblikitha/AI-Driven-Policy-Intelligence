@@ -1,0 +1,53 @@
+BILLING POLICY: EVALUATION AND MANAGEMENT (E/M) SERVICES
+Version: 1.0  |  Effective Date: January 1, 2023
+Issuing Organization: Example Health Plan
+
+---
+
+SECTION 1: SCOPE
+This policy governs reimbursement for Evaluation and Management (E/M) services billed
+under CPT codes 99202–99215 for outpatient office visits.
+
+SECTION 2: COVERAGE CRITERIA
+2.1 Covered Services
+E/M services are covered when:
+  - The service is medically necessary.
+  - The provider is a participating in-network physician or mid-level practitioner.
+  - The visit is documented in the member's medical record.
+
+2.2 Documentation Requirements
+  - A complete history, physical examination, and medical decision-making (MDM) must be
+    documented for each visit.
+  - Time-based billing is allowed when the provider documents total face-to-face time.
+  - For new patients, all three key components (history, exam, MDM) must be met or exceeded.
+  - For established patients, two of three key components must be met or exceeded.
+
+SECTION 3: CODING GUIDELINES
+3.1 New Patient Codes
+  - 99202: Straightforward MDM, 15–29 minutes
+  - 99203: Low MDM, 30–44 minutes
+  - 99204: Moderate MDM, 45–59 minutes
+  - 99205: High MDM, 60–74 minutes
+
+3.2 Established Patient Codes
+  - 99211: Minimal, may not require physician presence
+  - 99212: Straightforward MDM, 10–19 minutes
+  - 99213: Low MDM, 20–29 minutes
+  - 99214: Moderate MDM, 30–39 minutes
+  - 99215: High MDM, 40–54 minutes
+
+SECTION 4: BILLING RESTRICTIONS
+  - Same-day billing of E/M with procedure codes requires a separate, distinct service.
+  - Modifier 25 must be appended to the E/M code when billed same-day as a procedure.
+  - Split/shared visits between physician and APP must follow CMS guidelines.
+  - Incident-to billing is not covered for new patients.
+
+SECTION 5: REIMBURSEMENT
+  - Reimbursement is based on the Medicare Physician Fee Schedule (MPFS) at 110% of Medicare
+    allowable rates for participating providers.
+  - Non-participating providers are reimbursed at 80% of MPFS.
+
+SECTION 6: EXCLUDED SERVICES
+  - Telephone-only consultations without a documented in-office component.
+  - Services rendered by unlicensed personnel.
+  - Administrative encounters not involving clinical evaluation.
